@@ -1,0 +1,86 @@
+@font-face {
+  font-family: CursedTimerUlil-Aznm;
+  src: url(/font/CursedTimerUlil-Aznm.ttf);
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 4.5rem;
+  border: 4px solid #c4b5fd;
+  margin: 50px auto;
+  width: 700px;
+}
+h3 {
+  font-size: 2rem;
+  border: 5px solid #c4b5fd;
+  width: 150px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 5px 7.5px;
+}
+#scorecard-home,
+#scorecard-guest {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin-bottom: 20px;
+  color: red;
+  border-radius: 10%;
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-new {
+  font-size: 2rem;
+  padding: 6px 12px;
+  border: none;
+  background-color: #a78bfa;
+  border-radius: 10px;
+}
+
+.btn-new:hover {
+  background-color: #4c1d95;
+  color: #ddd6fe;
+  scale: 1.5;
+}
+
+#scorecard-home,
+#scorecard-guest,
+.btn {
+  font-family: CursedTimerUlil-Aznm;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: blueviolet;
+  border: 4px solid wheat;
+  padding-top: 5px;
+  margin-left: 15px;
+  font-size: 1.2rem;
+  border-radius: 10%;
+}
+
+.btn:hover {
+  background: wheat;
+  color: #4c1d95;
+  scale: 1.2;
+  font-size: 1.5rem;
+}
+
+.leader {
+  width: 400px;
+}
